@@ -2,7 +2,7 @@
 using System.Xml;
 using System.Xml.Linq;
 
-namespace CodeGym
+namespace XMLFILE
 {
     class Book
     {
@@ -15,8 +15,8 @@ namespace CodeGym
         static void Main(string[] args)
         {
             Book book = new Book();
-            book.Title = "Đắc Nhân Tâm";
-            book.Price = 123.5f;
+            book.Title = "DORAEMON";
+            book.Price = 200000f;
 
             WriteToFile(book);
 
